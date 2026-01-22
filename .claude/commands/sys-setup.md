@@ -217,4 +217,4 @@ Add the export statement to your shell profile (~/.zshrc or ~/.bashrc) so it loa
 If you encounter issues:
 1. Run `${CLAUDE_PLUGIN_ROOT}/scripts/orchestrate.sh preflight` for a detailed system check
 2. Check the logs in `~/.claude-octopus/logs/`
-3. Report issues at: https://github.com/nyldn/claude-octopus/issues
+3. Report issues at: https://github.com/hihidev/claude-octopus/issues

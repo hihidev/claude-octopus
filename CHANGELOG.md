@@ -1152,7 +1152,7 @@ Frequent commands get 1-2 word shortcuts:
 - **marketplace.json**: Dual registration (`co` + `claude-octopus`) for backward compatibility
 - **All skill paths**: Updated to reflect new categorized naming
 - **README.md**: Updated all examples to use `/co:` prefix, added v7.5 section
-- **Installation command**: Now `/plugin install co@nyldn-plugins` (old command still works)
+- **Installation command**: Now `/plugin install co@hihidev-plugins` (old command still works)
 
 ### Documentation
 - **Added**: `docs/MIGRATION-v7.5.md` - Complete migration guide with rename tables
@@ -1425,7 +1425,7 @@ Providers:
 - Integration: Git submodule (read-only reference)
 
 **Enhancement Layer**: Claude-octopus integration
-- Repository: https://github.com/nyldn/claude-octopus
+- Repository: https://github.com/hihidev/claude-octopus
 - License: MIT
 - Approach: Hybrid (reference original + add enhancements)
 
@@ -2110,8 +2110,8 @@ This release focuses on removing installation friction and fixing the critical s
 The curl-based installer in v4.9.3 and v4.9.4 still does not work reliably due to Claude Code's marketplace architecture requirements. Users should install using the official plugin manager:
 
 ```bash
-claude plugin marketplace add nyldn/claude-octopus
-claude plugin install claude-octopus@nyldn-plugins --scope user
+claude plugin marketplace add hihidev/claude-octopus
+claude plugin install claude-octopus@hihidev-plugins --scope user
 claude plugin enable claude-octopus --scope user
 claude plugin update claude-octopus --scope user
 ```

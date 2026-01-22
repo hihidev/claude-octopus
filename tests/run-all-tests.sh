@@ -64,6 +64,7 @@ done
 
 # Run tests in priority order
 run_test_suite "$SCRIPT_DIR/validate-plugin-name.sh"
+run_test_suite "$SCRIPT_DIR/validate-no-legacy-owner.sh"
 run_test_suite "$SCRIPT_DIR/test-command-registration.sh"
 run_test_suite "$SCRIPT_DIR/test-multi-command.sh"
 

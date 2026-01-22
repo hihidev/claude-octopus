@@ -47,8 +47,8 @@ Get started with Claude Octopus in 2 simple steps:
 Open Claude Code and run these two commands in the chat:
 
 ```
-/plugin marketplace add https://github.com/nyldn/claude-octopus
-/plugin install claude-octopus@nyldn-plugins
+/plugin marketplace add https://github.com/hihidev/claude-octopus
+/plugin install claude-octopus@hihidev-plugins
 ```
 
 The plugin is now installed and automatically enabled.
@@ -60,7 +60,7 @@ The plugin is now installed and automatically enabled.
 
 **If you get "SSH authentication failed":**
 
-Use the HTTPS URL format (already shown above). The shorthand `nyldn/claude-octopus` requires SSH keys configured with GitHub.
+Use the HTTPS URL format (already shown above). The shorthand `hihidev/claude-octopus` requires SSH keys configured with GitHub.
 
 **If `/octo:setup` shows "Unknown skill" in Step 2:**
 
@@ -68,12 +68,12 @@ Use the HTTPS URL format (already shown above). The shorthand `nyldn/claude-octo
    ```
    /plugin list
    ```
-   Look for `claude-octopus@nyldn-plugins` in the installed plugins list.
+   Look for `claude-octopus@hihidev-plugins` in the installed plugins list.
 
 2. Try reinstalling:
    ```
    /plugin uninstall claude-octopus
-   /plugin install claude-octopus@nyldn-plugins
+   /plugin install claude-octopus@hihidev-plugins
    ```
 
 3. Check for errors in debug logs (from terminal):
@@ -141,24 +141,24 @@ To get the latest version of Claude Octopus:
 ### Option A: Via Plugin UI
 1. `/plugin` to open plugin screen
 2. Navigate to "Installed" tab
-3. Find `claude-octopus@nyldn-plugins`
+3. Find `claude-octopus@hihidev-plugins`
 4. Click update button if available
 
 ### Option B: Reinstall Manually
 ```
 /plugin uninstall claude-octopus
-/plugin install claude-octopus@nyldn-plugins
+/plugin install claude-octopus@hihidev-plugins
 ```
 
 ### Option C: Pin to Specific Version (Claude Code 2.1.14+)
 Lock to a specific git commit SHA for stability:
 ```
-/plugin install claude-octopus@nyldn-plugins#<commit-sha>
+/plugin install claude-octopus@hihidev-plugins#<commit-sha>
 ```
 
 Example:
 ```
-/plugin install claude-octopus@nyldn-plugins#abc123def
+/plugin install claude-octopus@hihidev-plugins#abc123def
 ```
 
 This is useful during active development or when you need to reproduce a specific behavior.
@@ -188,7 +188,7 @@ Claude Octopus has different "tentacles" (workflows) for different tasks:
 
 ### v7.9.2 - Command Prefix Update
 - **Commands now use `/octo:*` prefix**: `/octo:research`, `/octo:debate`, etc.
-- **Plugin name unchanged**: Still `claude-octopus@nyldn-plugins`
+- **Plugin name unchanged**: Still `claude-octopus@hihidev-plugins`
 - **All `/co:` references updated** to `/octo:` in docs and command files
 
 ### v7.9.x
@@ -428,7 +428,7 @@ We believe in giving back to the open source community. Here's how you can contr
 
 ### To Claude-Octopus
 
-1. **Report Issues**: Found a bug? [Open an issue](https://github.com/nyldn/claude-octopus/issues)
+1. **Report Issues**: Found a bug? [Open an issue](https://github.com/hihidev/claude-octopus/issues)
 2. **Suggest Features**: Have an idea? We'd love to hear it!
 3. **Submit PRs**: Improvements welcome—please follow the existing code style
 4. **Share Knowledge**: Write about your experience using claude-octopus
@@ -465,7 +465,7 @@ When improving claude-octopus, consider whether enhancements benefit the broader
 
 ```bash
 # Clone with submodules
-git clone --recursive https://github.com/nyldn/claude-octopus.git
+git clone --recursive https://github.com/hihidev/claude-octopus.git
 cd claude-octopus
 
 # Or initialize submodules after cloning
@@ -490,5 +490,5 @@ MIT License - see [LICENSE](LICENSE)
 
 <p align="center">
   🐙 Made with eight tentacles of love 🐙<br/>
-  <a href="https://github.com/nyldn">nyldn</a>
+  <a href="https://github.com/hihidev">hihidev</a>
 </p>

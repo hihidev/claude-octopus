@@ -588,7 +588,7 @@ To add or modify trigger patterns:
 
 ## Support
 
-**Questions?** Open an issue at: https://github.com/nyldn/claude-octopus/issues
+**Questions?** Open an issue at: https://github.com/hihidev/claude-octopus/issues
 
 **Trigger not working?** Include:
 - Exact user phrase

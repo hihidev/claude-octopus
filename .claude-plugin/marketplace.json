@@ -1,7 +1,7 @@
 {
-  "name": "nyldn-plugins",
+  "name": "hihidev-plugins",
   "owner": {
-    "name": "nyldn"
+    "name": "hihidev"
   },
   "metadata": {
     "description": "Multi-tentacled orchestration plugin for Claude Code",
@@ -14,9 +14,9 @@
       "description": "v7.11.0 - NEW: /octo:plan with intelligent routing. Commands now '/octo:*'. Multi-tentacled orchestrator with AI debates, intent capture, quality gates. Run /octo:setup for guided setup.",
       "version": "7.11.0",
       "author": {
-        "name": "nyldn"
+        "name": "hihidev"
       },
-      "repository": "https://github.com/nyldn/claude-octopus",
+      "repository": "https://github.com/hihidev/claude-octopus",
       "license": "MIT",
       "keywords": [
         "multi-agent",

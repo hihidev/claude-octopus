@@ -18,5 +18,13 @@ if ! "$PROJECT_ROOT/tests/validate-plugin-name.sh"; then
     exit 1
 fi
 
+# Validate repository ownership references (legacy owner strings should be removed)
+if ! "$PROJECT_ROOT/tests/validate-no-legacy-owner.sh"; then
+    echo ""
+    echo "❌ Pre-commit validation failed!"
+    echo "   Found forbidden legacy owner references. Replace with 'hihidev'."
+    exit 1
+fi
+
 echo "✅ Pre-commit validation passed"
 exit 0

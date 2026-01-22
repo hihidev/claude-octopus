@@ -3,11 +3,11 @@
   "version": "7.11.0",
   "description": "Multi-tentacled orchestrator using Double Diamond methodology. (v7.11.0) Commands now '/octo:*'. Run /octo:setup for guided setup.",
   "author": {
-    "name": "nyldn"
+    "name": "hihidev"
   },
   "license": "MIT",
-  "repository": "https://github.com/nyldn/claude-octopus",
-  "homepage": "https://github.com/nyldn/claude-octopus#readme",
+  "repository": "https://github.com/hihidev/claude-octopus",
+  "homepage": "https://github.com/hihidev/claude-octopus#readme",
   "keywords": [
     "claude-code",
     "multi-agent",

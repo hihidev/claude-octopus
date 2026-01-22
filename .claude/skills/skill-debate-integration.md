@@ -651,9 +651,9 @@ This integration layer is claude-octopus specific, but **generic improvements** 
 - Repository: https://github.com/wolverin0/claude-skills
 
 **Integration Layer**:
-- Claude-Octopus by nyldn
+- Claude-Octopus by hihidev
 - License: MIT
-- Repository: https://github.com/nyldn/claude-octopus
+- Repository: https://github.com/hihidev/claude-octopus
 
 Both components are open source and contributions are welcome.
 

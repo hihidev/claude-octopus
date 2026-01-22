@@ -91,7 +91,7 @@ Use the `octo` namespace:
 
 ```
 # Installation
-/plugin install claude-octopus@nyldn-plugins
+/plugin install claude-octopus@hihidev-plugins
 
 # System commands
 /co:setup
@@ -266,7 +266,7 @@ All old commands continue to work indefinitely. Migrate at your own pace.
 
 **A:** Use:
 ```
-/plugin install claude-octopus@nyldn-plugins
+/plugin install claude-octopus@hihidev-plugins
 ```
 
 This gives you the `/co:` namespace that matches the "octo" natural language prefix.
@@ -313,17 +313,17 @@ If you encounter issues:
    ```
    /plugin list
    ```
-   Look for `claude-octopus@nyldn-plugins`
+   Look for `claude-octopus@hihidev-plugins`
 
 2. **Reinstall if needed:**
    ```
    /plugin uninstall claude-octopus
-   /plugin marketplace update nyldn-plugins
-   /plugin install claude-octopus@nyldn-plugins
+   /plugin marketplace update hihidev-plugins
+   /plugin install claude-octopus@hihidev-plugins
    ```
 
 3. **Report issues:**
-   https://github.com/nyldn/claude-octopus/issues
+   https://github.com/hihidev/claude-octopus/issues
 
 ---
 
